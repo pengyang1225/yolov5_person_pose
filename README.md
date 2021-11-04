@@ -17,7 +17,7 @@
 
 
 ```shell
-python3 crowdpose.py.py
+python3 crowdpose.py
 
 ```
 得到转化后的数据，本实验只提取了12个关键点
@@ -31,7 +31,7 @@ CUDA_VISIBLE_DEVICES="0,1,2,3" python3 train.py
 
 
 
-## WIDERFace Evaluation
+## widerface  Evaluation
 
 ```shell
 python3 test_pose.py 
